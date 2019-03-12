@@ -6,7 +6,7 @@ class CounterStore extends Store {
   }
   increment = () => {
     var newState = this.getState() + 1 ;
-    this.setState(newState) ; 
+    this.setState(newState) ;
   }
 }
 
