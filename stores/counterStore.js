@@ -1,3 +1,4 @@
+import Store from './store'
 class CounterStore {
   // Your implementation here.
   // Hint: extend the Store class!
