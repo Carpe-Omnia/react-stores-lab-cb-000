@@ -4,6 +4,6 @@ class CounterStore {
   // Hint: extend the Store class!
 }
 
-const counterStore = new CounterStore();
+const counterStore = new CounterStore({count: 0});
 
 export default counterStore;
