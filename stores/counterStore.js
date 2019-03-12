@@ -1,5 +1,5 @@
 import Store from './Store.js'
-class CounterStore {
+class CounterStore extends Store {
   // Your implementation here.
   // Hint: extend the Store class!
 }
