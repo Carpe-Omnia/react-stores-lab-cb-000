@@ -1,4 +1,4 @@
-import Store from './store'
+import Store from './Store.js'
 class CounterStore {
   // Your implementation here.
   // Hint: extend the Store class!
