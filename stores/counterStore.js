@@ -8,6 +8,10 @@ class CounterStore extends Store {
     var newState = this.getState() + 1 ;
     this.setState(newState) ;
   }
+  decrement = () => {
+    var newState = this.getState() - 1 ;
+    this.setState(newState) ;
+  }
 }
 
 const counterStore = new CounterStore();
