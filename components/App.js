@@ -20,10 +20,10 @@ class App extends React.Component {
       <div className='app'>
         <h1 className='counter'></h1>
         <div className='actions'>
-          <button className='decrement'>
+          <button onClick={Actions.decrement()} className='decrement'>
             -
           </button>
-          <button className='increment'>
+          <button onClick={Actions.increment()} className='increment'>
             +
           </button>
         </div>
