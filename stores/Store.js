@@ -11,6 +11,10 @@ class Store {
   }
   addListener (listener) {
     this.listeners.push(listener) ;
+    const removeListener = () => {
+      this.listeners = this.listeners.filter((1) => listener !== 1);
+    };
+    return removeListener ;
   }
 }
 
