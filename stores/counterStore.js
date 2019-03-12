@@ -1,10 +1,11 @@
 import Store from './Store.js'
 import Actions from '../actions/index.js'
 class CounterStore extends Store {
-  this.increment = Actions.increment.bind(this) ;
-  this.decrement = Actions.decrement.bind(this) ;
+  constructor() {
+  super(0) ;
+  }
 }
 
-const counterStore = new CounterStore({count: 0});
+const counterStore = new CounterStore();
 
 export default counterStore;
