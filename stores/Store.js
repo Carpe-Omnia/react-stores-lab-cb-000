@@ -1,6 +1,7 @@
 class Store {
   constructor (initialState) {
     this.state = initialState ;
+    this.listeners = [] ; 
   }
   setState (state) {
     this.state = state ;
