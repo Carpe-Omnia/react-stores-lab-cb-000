@@ -6,4 +6,4 @@ function increment() {
 function decrement() {
   console.log("decrementing")
 }
-export default {}
+export default {increment, decrement}
