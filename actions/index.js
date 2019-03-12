@@ -1,9 +1,9 @@
-// Your implementation here.
-// Hint: We need two actions!
+import counterStore from '../stores/counterStore.js'
+
 function increment() {
-  console.log("incrementing")
+
 }
 function decrement() {
-  console.log("decrementing")
+
 }
 export default {increment, decrement}
