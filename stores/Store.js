@@ -1,5 +1,5 @@
 class Store {
-  constructor(initialState) {
+  constructor (initialState) {
     this.state = initialState ;
   }
   setState (state) {
