@@ -6,4 +6,5 @@ function increment() {
 function decrement() {
   counterStore.decrement() ;
 }
+
 export default {increment, decrement}
