@@ -9,6 +9,9 @@ class Store {
   getState () {
     return this.state ;
   }
+  addListener (listener) {
+    this.listeners.push(listener) ;
+  }
 }
 
 export default Store;
