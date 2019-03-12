@@ -4,11 +4,11 @@ class CounterStore extends Store {
   constructor() {
   super(0) ;
   }
-  increment = () => {
+  increment(){
     var newState = this.getState() + 1 ;
     this.setState(newState) ;
   }
-  decrement = () => {
+  decrement(){
     var newState = this.getState() - 1 ;
     this.setState(newState) ;
   }
