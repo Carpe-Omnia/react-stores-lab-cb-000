@@ -1,4 +1,5 @@
 import React from 'react';
+import Actions from '../actions/index.js'
 
 class App extends React.Component {
   constructor (props) {
